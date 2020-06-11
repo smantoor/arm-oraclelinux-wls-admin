@@ -169,7 +169,7 @@
    "resources": [
       {
          "apiVersion": "2019-10-01",
-         "name": "${admin.admin.start}",
+         "name": "pid-34846638-780c-4035-ba5d-8ce93dd464c3",
          "type": "Microsoft.Resources/deployments",
          "properties": {
             "mode": "Incremental",
@@ -367,7 +367,7 @@
       },
       {
          "apiVersion": "2019-10-01",
-         "name": "${admin.admin.end}",
+         "name": "pid-e6f7cd0b-de35-445a-b28e-dcd83a72b8d5",
          "type": "Microsoft.Resources/deployments",
          "dependsOn": [
             "[resourceId('Microsoft.Compute/virtualMachines/extensions', parameters('adminVMName'), 'newuserscript')]"
